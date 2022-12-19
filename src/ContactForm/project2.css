@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+*
+{
+   
+}
+.Form-Container{
+    background-image:linear-gradient( 115deg,
+    rgba(58, 58, 158, 0.8),
+    rgba(136, 136, 206, 0.4)), url(./wp2821040-hd-background-pattern.png) ;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 16px;
+    font-weight: lighter bold;
+    font-family:'Homemode Apple','sans-serif';
+    height: 100%;
+    width:100%;
+    animation-name:color1;
+    animation-duration:5sec;
+    margin:0;
+    padding:0;
+}
+/*@keyframes color1
+{
+    0% {
+        
+        background-color: aqua;
+        
+    }
+
+    25%
+    {
+        background-color: aquamarine;
+    }
+    50%
+    {
+        background-color: blue;
+    }
+    75%
+    {
+        background-image:linear-gradient( 115deg,
+        rgba(58, 58, 158, 0.75),
+        rgba(136, 136, 206, 0.325)), url(./wp2821040-hd-background-pattern.png) ;
+    }
+    100%
+     {
+        background-image:linear-gradient( 115deg,
+        rgba(58, 58, 158, 1),
+        rgba(136, 136, 206, 0.5)), url(./wp2821040-hd-background-pattern.png) ;
+     }
+}*/
+
+.heading
+{    text-align: center;
+    width:90%;
+    margin:auto;
+   margin-bottom:20px;
+    color:white;
+    }
+#title
+{
+   
+}
+#description{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+label
+{
+    color:white;
+}
+#survey-form
+{
+     text-align: left;
+     display:flex;
+     width:80%;
+     border-radius:5px;
+     background-color:rgba(27, 27, 50, 0.8);
+     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+     transition: border-color 10s ease-in-out, box-shadow 0.15s ease-in-out;
+     align-items:center;
+     justify-content: center;
+     margin-left: 10%;
+     padding-bottom: 60px;
+}
+form .box
+{
+    width:98.77%;
+    height: 2.8rem;
+    position: relative;
+    bottom:10px;
+    border:0;
+    border-radius: 5px;
+}
+#dropdown
+{
+    margin-top:40px;
+    width:98.77%;
+    height: 2.8rem;
+    position: relative;
+    bottom:10px;
+    border:0;
+    border-radius: 5px;
+}
+p
+{
+    text-align:center;
+    color:white;
+
+}
+#head1
+{
+    margin-top:40px;
+    width:98.77%;
+    height: 2.8rem;
+    position: relative;
+    bottom:10px;
+    border:0;
+    border-radius: 5px;
+}
+.check-radio
+{
+    margin-bottom: 20px;
+}
+textarea
+{
+    width:400px;
+    height: 80px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#submit
+{
+    width:98%;
+    background-color: rgb(38, 148, 38);
+    height: 40px;
+    margin-top:20px;
+    border-radius:5px;
+
+}
